@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <title>Quiz Game</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <h1>Quiz Game</h1>
+  <form id="quiz">
+    <p>What is the capital of France?</p>
+    <input type="radio" name="question1" value="Paris">Paris<br>
+    <input type="radio" name="question1" value="London">London<br>
+    <input type="radio" name="question1" value="Rome">Rome<br>
+
+    <p>What is the capital of Italy?</p>
+    <input type="radio" name="question2" value="Paris">Paris<br>
+    <input type="radio" name="question2" value="Rome">Rome<br>
+    <input type="radio" name="question2" value="Madrid">Madrid<br>
+
+    <button onclick="checkAnswers()">Submit</button>
+  </form>
+  <div id="results"></div>
+  <script src="app.js"></script>
+</body>
+</html>

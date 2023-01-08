@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+p {
+  font-weight: bold;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+#results {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/* Add some responsive styling */
+@media (max-width: 500px) {
+  form {
+    width: 90%;
+  }
+}
